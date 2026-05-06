@@ -1,0 +1,37 @@
+# Data files (preserve directory structure)
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Saved models (preserve directory structure)
+Saved_models/**
+!Saved_models/**/
+!Saved_models/**/.gitkeep
+
+# CV results (preserve directory structure)
+CV_Values/**
+!CV_Values/**/
+!CV_Values/**/.gitkeep
+Results_CV/**
+!Results_CV/**/
+!Results_CV/**/.gitkeep
+
+# Images (preserve directory structure)
+pic/**
+!pic/**/
+!pic/**/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Documents
+*.docx
+*.txt
+*.pdf
+
+# Model weights
+*.h5
+*.pth
+*.pt
+*.onnx
